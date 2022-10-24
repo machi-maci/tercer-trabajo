@@ -1081,7 +1081,7 @@ progress {
   }
   .row-cols-md-3 > * {
     flex: 0 0 auto;
-    width: 33.3333333333%;
+    width: 25%;
   }
   .row-cols-md-4 > * {
     flex: 0 0 auto;
@@ -10896,8 +10896,14 @@ textarea.form-control-lg {
 .tamañopng {
   width: 120px;
   border-radius: 50%;
-  border-color: green;
-  border: 20px #000;
+  border: 3px solid grey;
+}
+.tamañoxx {
+  width: 50%;
+  text-align: left;
+  border: 3px solid grey;
+  position: relative;
+  left: -25%;
 }
 
 .primeraparte {
@@ -10928,5 +10934,23 @@ textarea.form-control-lg {
   padding: 20px;
   
 }
+
+.color {
+  color: #000;
+  text-align: left;
+}
+
+.color2 {
+  color: gray;
+  position: relative;
+  left: 70%;
+}
+
+.fondofoot {
+  background-color: rgb(248, 249, 250) 
+}
+
+
+
 
 /*# sourceMappingURL=bootstrap.css.map */
